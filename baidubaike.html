@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>黄运驰_百度百科</title>
+    <link href="css/baidubaike.css" rel="stylesheet" type="text/css">
+    <link href="zui/css/zui.css" rel="stylesheet">
+    <link href="zui/css/zui-theme.css">
+</head>
+<body class="feature" style='overflow:scroll;overflow-x:hidden'>
+    <div class="header-wrapper">
+        <ul class="wgt-userbar">
+            <li>
+            <a href="http://www.baidu.com/">百度首页</a>
+            </li>
+            <li>
+                <a  href="#">登录</a>
+            </li>
+            <li>
+                <a href="#">注册</a>
+            </li>
+        </ul>
+        <div class="header">
+            <div class="layout">
+                <div class=" wgt-searchbar-main ">
+            <div class="logo-container">
+                <img src="images/logo_baike.jpg">
+            </div>
+
+            <div class="search">
+                <div class="nav">
+                    <a href="http://news.baidu.com/">新闻</a>
+                    <a href="http://www.baidu.com/" >网页</a>
+                    <a href="http://tieba.baidu.com/" >贴吧</a>
+                    <a href="http://zhidao.baidu.com/" >知道</a>
+                    <a href="http://music.baidu.com/" >音乐</a>
+                    <a href="http://image.baidu.com/">图片</a>
+                    <a href="http://v.baidu.com/">视频</a>
+                    <a href="http://map.baidu.com/" >地图</a>
+                    <a class="baike">百科</a>
+                    <a href="http://wenku.baidu.com/">文库</a>
+                </div>
+                <div class="form">
+                    <form id="searchForm" action="/search/word" method="GET" target="_self">
+                        <input id="query" name="word" type="text" autocomplete="off" autocorrect="off" value="黄运驰"><button id="search" type="button">进入词条</button>
+                        <button id="searchLemma" type="button">搜索词条</button>
+                        <a class="help" href="/help" target="_blank">帮助</a>
+                    </form>
+                    <form id="searchLemmaForm" action="/search" method="GET" target="_self">
+                        <input id="searchLemmaQuery" name="word" type="hidden">
+                        <input name="pn" type="hidden" value="0">
+                        <input name="rn" type="hidden" value="0">
+                        <input name="enc" type="hidden" value="utf8">
+                    </form>
+                    <ul id="suggestion" class="suggestion" style="display: none;">
+                        <li class="extra">
+                            <span id="close">关闭</span>
+                        </li>
+                    </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar-wrapper">
+
+        <div class="wgt-navbar">
+            <div class="navbar-bg">
+
+                <div class="navbar-bg-top">
+                    <div class="navbar-content layout">
+                        <div class="navbar-content-box">
+                            <dl class="index ">
+                                <dt><a href="/">首页</a></dt>
+                            </dl>
+                            <dl class="cat">
+                                <dt><a>分类</a></dt>
+                                <dd>
+                                        <div><a href="/ziran" target="_blank">自然</a></div>
+                                        <div><a href="/wenhua" target="_blank">文化</a></div>
+                                        <div><a href="/dili" target="_blank">地理</a></div>
+                                        <div><a href="/shenghuo" target="_blank">生活</a></div>
+                                        <div><a href="/shehui" target="_blank">社会</a></div>
+                                </dd>
+                            </dl>
+                            <dl class="special">
+                                <dt><a>特色百科</a></dt>
+                                <dd>
+                                        <div><a href="/calendar/" target="_blank">历史上的今天</a></div>
+                                        <div><a href="/museum/" target="_blank">数字博物馆</a></div>
+                                        <div><a href="/shiji/2015?fr=navbar" target="_blank">史记·2015</a></div>
+                                        <div><a href="/city/" target="_blank">城市百科</a></div>
+                                        <div><a href="/operation/worldwar2" target="_blank">二战百科</a></div>
+                                </dd>
+                            </dl>
+                            <dl class="user">
+                                <dt><a>用户</a></dt>
+                                <dd>
+                                        <div><a href="/kedou/" target="_blank">蝌蚪团</a></div>
+                                        <div><a href="/event/ranmeng/" target="_blank">燃梦计划</a></div>
+                                        <div><a href="/task/" target="_blank">百科任务</a></div>
+                                        <div><a href="/mall/" target="_blank">百科商城</a></div>
+                                </dd>
+                            </dl>
+                            <dl class="cooperation">
+                                <dt><a>权威合作</a></dt>
+                                <dd>
+                                        <div><a href="/operation/cooperation#joint" target="_blank">合作模式</a></div>
+                                        <div><a href="/operation/cooperation#issue" target="_blank">常见问题</a></div>
+                                        <div><a href="/operation/cooperation#connection" target="_blank">联系方式</a></div>
+                                </dd>
+                            </dl>
+                            <dl class="mobile">
+                                <dt><a>手机百科</a></dt>
+                                <dd>
+                                        <div><a href="/m#download" target="_blank">客户端</a></div>
+                                        <div><a href="/m#wap" target="_blank">网页版</a></div>
+                                </dd>
+                            </dl>
+
+                        </div>
+                        <div class="usercenter">
+                            <div class="user-center"><a href="/usercenter" target="_blank"><em class="cmn-icon cmn-icons cmn-icons_navbar-usercenter"></em>个人中心</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="body-wrapper" >
+        <div class="poster">
+            <div class="summary-pic">
+                <img src="images/summary-pic.jpg">
+            </div>
+            <dl class="con">
+                <dt class="title">
+                    <dl class="lemmaWgt-lemmaTitle">
+                        <dd class="lemmaWgt-lemmaTitle-title">
+                            <h1>黄运驰&nbsp;<button class="btn " type="button"><i class="icon icon-pencil"></i> 编辑</button></h1>
+                        </dd>
+                        <dd class="lemmaWgt-lemamTitle-keyInfo">
+                            <ul>
+                                <li>
+                                    中国
+                                </li>
+                                <li>
+                                    中国 广西
+                                </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </dt>
+                <dd class="desc">
+                    <div class="lemma-summary">
+                        <div class="para">黄运驰（Robert Jr），男，壮族</div>
+                        <div class="para">出生于广西壮族自治区来宾市，
+                            由于父母工作原因从小随父母在广西各个城市辗转，直到小学五年级才定居在来宾市这个美丽的西南边陲小城市，
+                            2000-2007  就读于来宾市兴宾区第二小学
+                            2007-2010  就读于来宾市兴宾区第第四中学
+                            2010-2013  就读于来宾市新宾区第一中学
+                            2013年高中毕业后就读于天津城建大学软件工程专业，
+                            2016年，进入天津市软件学院攻读大前端方向
+                        </div>
+                        <div class="para">平时性格偏于内向，为人坦率、热情、讲原则；处事乐观、专心、细致；富有责任心、乐于助人。最大的满足感
+                        在于该做的事情顺利完成，以便于有经历去关注其他事情。最大的缺点是对没有秩序感的人缺乏耐心。</div>
+                    </div>
+                </dd>
+                <dd class="featureBaseInfo">
+                    <div class="f-baseInfo_wrap">
+                        <div class="star-info-block works">
+                            <dl class="column">
+                                <dt class="left-move">代表<em>作品</em></dt>
+                                <dd>
+                                    <div class="viewport" id="slider_works">
+                                        <ul class="slider maqueeCanvas">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/viewport1.jpg">
+                                                    <div class="name" title="预产期">预产期</div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/viewport2.jpg">
+                                                    <div class="name" title="卓别林">卓别林</div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/viewport3.jpg">
+                                                    <div class="name" title="大侦探福尔摩斯">大侦探福尔摩斯</div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="star-info-block relations">
+                            <dl class="column">
+                                <dt class="left-move">人际<em>关系</em></dt>
+                                <dd>
+                                    <div class="viewport" id="slider_relations">
+                                        <ul class="slider maqueeCanvas" style="left: 0px;">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/relation1.jpg" width="86px" height="86px" class="img-circle" alt="圆形图片">
+                                                    <div class="name">室友<em>罗伯特·唐尼</em></div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/relation2.jpg" width="86px" height="86px" class="img-circle" alt="圆形图片">
+                                                    <div class="name">同学<em>克里斯·埃文斯</em></div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/relation3.jpg" width="86px" height="86px" class="img-circle" alt="圆形图片">
+                                                    <div class="name">朋友<em>格温妮斯·帕特洛</em></div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <div class="content">
+            <div class="main-content">
+                <div class="lemmaWgt-lemmaCatalog">
+                    <div class="lemma-catalog">
+                        <h2 class="block-title">目录</h2>
+                        <div class="catalog-list column-3">
+                            <ol>
+                                <li class="level1">
+                                    <span class="index">1</span>
+                                    <span class="text"><a href="#1">早年经历</a></span>
+                                </li>
+                                <li class="level1">
+                                    <span class="index">2</span>
+                                    <span class="text"><a href="#2">求学经历</a></span>
+                                </li>
+                                <li class="level1">
+                                    <span class="index">3</span>
+                                    <span class="text"><a href="#3">个人生活</a></span>
+                                </li>
+                            </ol>
+                            <!--<ol><li class="level1">
+                            <span class="index">4</span>
+                            <span class="text"><a href="#4">主要作品</a></span>
+                        </li>
+                            <li class="level2">
+                                <span class="index">▪</span>
+                                <span class="text"><a href="#4_1">参演电影</a></span>
+                            </li>
+                            <li class="level2">
+                                <span class="index">▪</span>
+                                <span class="text"><a href="#4_2">参演电视剧</a></span>
+                            </li>-->
+                        </ol><ol><li class="level1">
+                            <span class="index">4</span>
+                            <span class="text"><a href="#4">获奖记录</a></span>
+                        </li>
+                            <li class="level1">
+                                <span class="index">5</span>
+                                <span class="text"><a href="#5">人物评价</a></span>
+                            </li>
+                        </ol>
+
+                        </div>
+                    </div>
+                </div>
+                <h2 class="headline-1 custom-title ">
+                    <span class="headline-content">基本信息</span>
+                </h2>
+                <div class="basic-info cmn-clearfix">
+                    <dl class="basicInfo-block basicInfo-left">
+                        <dt class="basicInfo-item name">中文名</dt>
+                        <dd class="basicInfo-item value">
+                            黄运驰
+                        </dd>
+                        <dt class="basicInfo-item name">外文名</dt>
+                        <dd class="basicInfo-item value">
+                            Robert Jr
+                        </dd>
+                        <dt class="basicInfo-item name">别&nbsp;&nbsp;&nbsp;&nbsp;名</dt>
+                        <dd class="basicInfo-item value">
+                            Bob，Bobby， rubber，ducky
+                        </dd>
+                        <dt class="basicInfo-item name">国&nbsp;&nbsp;&nbsp;&nbsp;籍</dt>
+                        <dd class="basicInfo-item value">
+                            中国
+                        </dd>
+                        <dt class="basicInfo-item name">星&nbsp;&nbsp;&nbsp;&nbsp;座</dt>
+                        <dd class="basicInfo-item value">
+                            双鱼座
+                        </dd>
+                        <dt class="basicInfo-item name">血&nbsp;&nbsp;&nbsp;&nbsp;型</dt>
+                        <dd class="basicInfo-item value">
+                            O型
+                        </dd>
+                        <dt class="basicInfo-item name">性&nbsp;&nbsp;&nbsp;&nbsp;别</dt>
+                        <dd class="basicInfo-item value">
+                            男
+                        </dd>
+                        <dt class="basicInfo-item name">出生地</dt>
+                        <dd class="basicInfo-item value">
+                            广西 来宾
+                        </dd>
+                    </dl><dl class="basicInfo-block basicInfo-right">
+                    <dt class="basicInfo-item name">最喜欢城市</dt>
+                    <dd class="basicInfo-item value">
+                        厦门
+                    </dd>
+                    <dt class="basicInfo-item name">职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;业</dt>
+                    <dd class="basicInfo-item value">
+                        学生
+                    </dd>
+                    <dt class="basicInfo-item name">爱&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好</dt>
+                    <dd class="basicInfo-item value">
+                        读书、看报、旅游、摄影、音乐、电影
+                    </dd>
+                    <dt class="basicInfo-item name">能力与荣誉</dt>
+                    <dd class="basicInfo-item value">
+                        2013年个人“实践先锋”
+                        <br>获得学校”优秀团干部“称号
+                        <br>社会实践团队获校级“优秀团队”奖
+                        <br>获得校级“先进班级”的荣誉称号
+                    </dd>
+                </dl></div>
+                <!--1-->
+                <div class="anchor-list">
+                    <a name="1" class="lemma-anchor para-title"></a>
+                    <a name="sub1505871_1" class="lemma-anchor "></a>
+                    <a name="柳州" class="lemma-anchor "></a>
+                </div>
+                <div class="para-title level-2">
+                    <h2 class="title-text"><span class="title-prefix">柳州</span>早年经历</h2>
+                    <a class="edit-icon j-edit-link" data-edit-dl="1" href="javascript:;" style="display: block;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+                </div>
+                <div class="para">
+                    <div class="lemma-picture text-pic layout-center" style="width:790px; float: none; display: block; margin: 0px auto; clear: both;">
+                        <a class="image-link" nslog-type="9317" href="#"  title="小罗伯特·唐尼小时候" style="width:790px;height:500px;">
+                            <img class="" src="images/content1.jpg" alt="小罗伯特·唐尼小时候" style="width:790px;height:500px;">
+                        </a>
+                        <span class="description">
+                        柳州
+                        </span>
+                    </div>
+                </div>
+                <div class="little-text">1965年4月4日，小罗伯特·唐尼生于美国纽约。父亲是电影导演罗伯特·唐尼，母亲为一名演员。五岁时他参加过多次业余表演。由于决意发展演艺事业，他辍学加入剧团，并参加
+                    周末夜现场等电视节目的演出。</a>
+                </div>
+                <!--2-->
+                <div class="anchor-list">
+                    <a name="2" class="lemma-anchor para-title"></a>
+                    <a name="sub1505871_1" class="lemma-anchor "></a>
+                    <a name="求学经历" class="lemma-anchor "></a>
+                </div>
+                <div class="para-title level-2">
+                    <h2 class="title-text"><span class="title-prefix">天津城建大学</span>求学经历</h2>
+                    <a class="edit-icon j-edit-link" data-edit-dl="1" href="javascript:;" style="display: block;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+                </div>
+                <div class="para">
+                    <div class="lemma-picture text-pic layout-center" style="width:790px; float: none; display: block; margin: 0px auto; clear: both;">
+                        <a class="image-link" nslog-type="9317" href="#"  title="天津城建大学" style="width:790px;height:500px;">
+                            <img class="" src="images/content4.png" alt="天津城建大学" style="width:790px;height:500px;">
+                        </a>
+                        <span class="description">
+                        天津城建大学
+                        </span>
+                    </div>
+                </div>
+                <div class="little-text">1965年4月4日，小罗伯特·唐尼生于美国纽约。父亲是电影导演罗伯特·唐尼，母亲为一名演员。五岁时他参加过多次业余表演。由于决意发展演艺事业，他辍学加入剧团，并参加
+                    周末夜现场等电视节目的演出。</a>
+                </div>
+                <!--3-->
+                <div class="anchor-list">
+                    <a name="3" class="lemma-anchor para-title"></a>
+                    <a name="sub1505871_1" class="lemma-anchor "></a>
+                    <a name="个人生活" class="lemma-anchor "></a>
+                </div>
+                <div class="para-title level-2">
+                    <h2 class="title-text"><span class="title-prefix">小罗伯特·唐尼</span>个人生活</h2>
+                    <a class="edit-icon j-edit-link" data-edit-dl="1" href="javascript:;" style="display: block;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+                </div>
+                <div class="para">
+                    <div class="lemma-picture text-pic layout-center" style="width:790px; float: none; display: block; margin: 0px auto; clear: both;">
+                        <a class="image-link" nslog-type="9317" href="#"  title="小罗伯特·唐尼小时候" style="width:790px;height:500px;">
+                            <img class="" src="images/content3.jpg" alt="小罗伯特·唐尼小时候" style="width:790px;height:500px;">
+                        </a>
+                        <span class="description">
+                        小罗伯特·唐尼小时候
+                        </span>
+                    </div>
+                </div>
+                <div class="little-text">1965年4月4日，小罗伯特·唐尼生于美国纽约。父亲是电影导演罗伯特·唐尼，母亲为一名演员。五岁时他参加过多次业余表演。由于决意发展演艺事业，他辍学加入剧团，并参加
+                    周末夜现场等电视节目的演出。</a>
+                </div>
+                <!--4-->
+                <div class="anchor-list">
+                    <a name="4" class="lemma-anchor para-title"></a>
+                    <a name="sub1505871_1" class="lemma-anchor "></a>
+                    <a name="获奖记录" class="lemma-anchor "></a>
+                </div>
+                <div class="para-title level-2">
+                    <h2 class="title-text"><span class="title-prefix">小罗伯特·唐尼</span>获奖记录</h2>
+                    <a class="edit-icon j-edit-link" data-edit-dl="1" href="javascript:;" style="display: block;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+                </div>
+                <div class="para">
+                    <div class="lemma-picture text-pic layout-center" style="width:355px; float: none; display: block; margin: 0px auto; clear: both;">
+                        <a class="image-link" nslog-type="9317" href="#"  title="小罗伯特·唐尼小时候" style="width:355px;height:500px;">
+                            <img class="" src="images/littleluobote.jpg" alt="小罗伯特·唐尼小时候" style="width:355px;height:500px;">
+                        </a>
+                        <span class="description">
+                        小罗伯特·唐尼小时候
+                        </span>
+                    </div>
+                </div>
+                <div class="little-text">1965年4月4日，小罗伯特·唐尼生于美国纽约。父亲是电影导演罗伯特·唐尼，母亲为一名演员。五岁时他参加过多次业余表演。由于决意发展演艺事业，他辍学加入剧团，并参加
+                    周末夜现场等电视节目的演出。</a>
+                </div>
+                <!--5-->
+                <div class="anchor-list">
+                    <a name="5" class="lemma-anchor para-title"></a>
+                    <a name="sub1505871_1" class="lemma-anchor "></a>
+                    <a name="任务评价" class="lemma-anchor "></a>
+                </div>
+                <div class="para-title level-2">
+                    <h2 class="title-text"><span class="title-prefix">小罗伯特·唐尼</span>人物评价</h2>
+                    <a class="edit-icon j-edit-link" data-edit-dl="1" href="javascript:;" style="display: block;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+                </div>
+                <div class="para">
+                    <div class="lemma-picture text-pic layout-center" style="width:355px; float: none; display: block; margin: 0px auto; clear: both;">
+                        <a class="image-link" nslog-type="9317" href="#"  title="小罗伯特·唐尼小时候" style="width:355px;height:500px;">
+                            <img class="" src="images/littleluobote.jpg" alt="小罗伯特·唐尼小时候" style="width:355px;height:500px;">
+                        </a>
+                        <span class="description">
+                        小罗伯特·唐尼小时候
+                        </span>
+                    </div>
+                </div>
+                <div class="little-text">1965年4月4日，小罗伯特·唐尼生于美国纽约。父亲是电影导演罗伯特·唐尼，母亲为一名演员。五岁时他参加过多次业余表演。由于决意发展演艺事业，他辍学加入剧团，并参加
+                    周末夜现场等电视节目的演出。</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wgt-footer-main">
+        <div class="content">
+            <dl class="fresh">
+
+                <dt><i class="icon icon-question-sign icon-2x">&nbsp;</i>新手上路</dt>
+                <dd>
+                    <div><a target="_blank" href="/usercenter/tasks#guide">成长任务</a></div>
+                    <div><a target="_blank" href="/help#main01">编辑入门</a></div>
+                    <div><a target="_blank" href="/help#main06">编辑规则</a></div>
+                    <div><a target="_blank" href="/help#main05">百科术语</a></div>
+                </dd>
+            </dl>
+            <dl class="question">
+                <dt><i class="icon icon-group icon-2x">&nbsp;</i>我有疑问</dt>
+                <dd>
+                    <div><a target="_blank" href="/wikiui/doubt?lemmaId=1408248&amp;fr=lemma" nslog-type="10070001">我要质疑</a></div>
+                    <div><a target="_blank" href="http://ikefu.baidu.com/baidubaike/chat.html" nslog-type="10000003">我要提问</a></div>
+                    <div><a target="_blank" href="http://tieba.baidu.com/f?ie=utf-8&amp;fr=bks0000&amp;kw=%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91">参加讨论</a></div>
+                    <div><a target="_blank" href="/feedback">意见反馈</a></div>
+                </dd>
+            </dl>
+            <dl class="suggest">
+                <dt><i class="icon icon-envelope icon-2x">&nbsp;</i>投诉建议</dt>
+                <dd>
+                    <div><a target="_blank" href="http://tousu.baidu.com/baike/add?word=%E5%B0%8F%E7%BD%97%E4%BC%AF%E7%89%B9%C2%B7%E5%94%90%E5%B0%BC&amp;&amp;submit_link=http%3A%2F%2Fbaike.baidu.com%2Flink%3Furl%3DUY03DizlrGIS3tOzNAUWJf-QLv3rXjeTtiyV8V-VHTw5QRO5KIwHIt0rQ63BdfpTVz2rv6Vcpm681FUDYSuC7a#1">举报不良信息</a></div>
+                    <div><a target="_blank" href="http://tousu.baidu.com/baike/add?word=%E5%B0%8F%E7%BD%97%E4%BC%AF%E7%89%B9%C2%B7%E5%94%90%E5%B0%BC&amp;&amp;submit_link=http%3A%2F%2Fbaike.baidu.com%2Flink%3Furl%3DUY03DizlrGIS3tOzNAUWJf-QLv3rXjeTtiyV8V-VHTw5QRO5KIwHIt0rQ63BdfpTVz2rv6Vcpm681FUDYSuC7a#2">未通过词条申诉</a></div>
+                    <div><a target="_blank" href="http://tousu.baidu.com/baike/add?word=%E5%B0%8F%E7%BD%97%E4%BC%AF%E7%89%B9%C2%B7%E5%94%90%E5%B0%BC&amp;&amp;submit_link=http%3A%2F%2Fbaike.baidu.com%2Flink%3Furl%3DUY03DizlrGIS3tOzNAUWJf-QLv3rXjeTtiyV8V-VHTw5QRO5KIwHIt0rQ63BdfpTVz2rv6Vcpm681FUDYSuC7a#4">投诉侵权信息</a></div>
+                    <div><a target="_blank" href="http://tousu.baidu.com/baike/add?word=%E5%B0%8F%E7%BD%97%E4%BC%AF%E7%89%B9%C2%B7%E5%94%90%E5%B0%BC&amp;&amp;submit_link=http%3A%2F%2Fbaike.baidu.com%2Flink%3Furl%3DUY03DizlrGIS3tOzNAUWJf-QLv3rXjeTtiyV8V-VHTw5QRO5KIwHIt0rQ63BdfpTVz2rv6Vcpm681FUDYSuC7a#3">封禁查询与解封</a></div>
+                </dd>
+            </dl>
+            </dl>
+        </div><br>
+        <div class="copyright">
+            ©2016Baidu&nbsp;
+            <a href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>&nbsp;|&nbsp;
+            <a href="http://help.baidu.com/question?prod_en=baike&amp;class=159&amp;id=1047" target="_blank">百科协议</a>&nbsp;|&nbsp;
+            <a href="/operation/cooperation" target="_blank">百度百科合作平台</a>
+        </div>
+    </div>
+    <div class="new-side-share">
+        <span class="title">分享</span>
+        <div class="side-border">
+            <div class="triangle"></div>
+            <a class="bds_tqq" href="tencent://message/?uin=760274185&amp;site=qq&amp;menu=yes">
+                <i class="icon icon-weibo icon-2x"></i>
+            </a>
+            <a class="bds_tqq" href="tencent://message/?uin=760274185&amp;site=qq&amp;menu=yes">
+                <i class="icon icon-qq icon-2x"></i>
+            </a>
+            <a class="bds_wechat" href="tencent://message/?uin=13116110807&amp;site=qq&amp;menu=yes">
+                <i class="icon icon-wechat icon-2x"></i>
+            </a>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="js/baidubaike.js"></script>
+</body>
+</html>
